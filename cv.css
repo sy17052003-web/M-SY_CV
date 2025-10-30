@@ -6,7 +6,7 @@
     --section-header-color: #0080ff; 
     --background-color: #f4f4f4;
     --animation-duration: 1.0s;
-    --animation-delay: 0.4s;
+    --animation-delay: 0.2s;
 }
 
 * {
@@ -331,5 +331,3 @@ body {
         width: 100px;
     }
 }
-
-
