@@ -60,7 +60,7 @@
 }
 
 
-.contenu-main section.fade-in {
+.contenu-main section.animation {
     animation: fadeInUp var(--animation-duration) ease forwards;
     opacity: 0;
 }
@@ -78,7 +78,7 @@
 
 
 @media (prefers-reduced-motion: reduce) {
-    .fade-in {
+    .animation {
         animation: none !important;
         opacity: 1 !important;
         transform: none !important;
@@ -208,9 +208,7 @@ body {
 .progression {
     height: 100%;
     background-color: var(--text-color-light);
-    transition: width 1s ease-in-out;
-    animation: progressFill 1.2s ease forwards;
-    width: 0;
+    transition: width 0.5s ease-in-out;
 }
 
 @keyframes progressFill {
